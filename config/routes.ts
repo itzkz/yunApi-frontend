@@ -18,6 +18,7 @@ export default [
     access: 'canAdmin',
     routes: [
       { name: '接口管理', icon: 'table', path: '/admin/interfaceInfo', component: './Admin/InterfaceInfo' },
+      { name: '接口分析', icon: 'table', path: '/admin/analysis', component: './Admin/Analysis' },
     ],
   },
 
